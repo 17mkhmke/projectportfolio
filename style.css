@@ -1,11 +1,100 @@
-*@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100&display=swap');
+/*Universal styling*/
 *{
     margin:0 ;
     padding: 0;
-    font-family: sans-serif;
+    font-family:raleway;
 
 }
-header {
+
+.navbar{
+    z-index: 20;
+    height: 80px;
+}
+/*landing page*/
+.nav-link{
+    color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    
+}
+
+body{
+    background-color: lightyellow;
+}
+.nav-link:hover{
+    transform: scale(1.2);
+}
+.nav-link:hover{
+    color: gold;
+}
+.logo{
+    width: 7rem;
+}
+.detail{
+     width: 100%;
+    padding: 100px 0px;
+    background-color:lightyellow;
+
+}
+.detail {
+    margin-left: 8%;
+    margin-top: 18%;
+}
+.detail h1{
+    font-size: 50px;
+    color: black;
+    margin-bottom: 20px;
+}
+span{
+    color: gold;
+}
+.detail p{
+    color:black;
+    line-height: 22px;
+    letter-spacing: 1px;
+ 
+ }
+ .detail a{
+    background: black;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: gold;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+
+
+}
+
+.images {
+    width: 45%;
+    height: 60%;
+    position: absolute;
+    bottom:0;
+    right: 100px;
+}
+.images img {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    transform: translateX(-50%);
+    transition: bottom is, left is;
+}
+.images:hover .kreeD-Shape{
+    bottom: 40px;
+
+}
+.images:hover .me{
+    left: 45%;
+}
+a:hover{
+    transform: scale(1.2);
+}
+/*header {
     display: flex;
    
 }
@@ -58,66 +147,22 @@ a:hover {
 nav ul li a:hover{
     color: black;
 }
-.detail h1{
-    font-size: 50px;
-    color: black;
-    margin-bottom: 20px;
-}
-span{
-    color: gold;
-}
-.detail {
-    margin-left: 8%;
-    margin-top: 18%;
-    
-}
-.detail p{
-   color:black;
-   line-height: 22px;
-   letter-spacing: 1px;
-
-}
-.detail a{
-    background: black;
-    padding: 10px 18px;
-    text-decoration: none;
-    font-weight: bold;
-    color: gold;
-    display: inline-block;
-    margin: 30px 0;
-    border-radius: 5px;
 
 
+/* Sections */
+section {
+    scroll-margin-top: 100px;
 }
-.images {
-    width: 45%;
-    height: 60%;
-    position: absolute;
-    bottom: 0;
-    right: 100px;
-}
-.images img {
-    height: 100%;
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
-    transition: bottom is, left is;
-}
-.images:hover .kreeD-Shape{
-    bottom: 20px;
 
-}
-.images:hover .me{
-    left: 35%;
-}
-#About-Me {
+*/
+/* About me Section*/
+#AboutMe {
     width: 100%;
     padding: 100px 0px;
     background-color:lightyellow;
 }
-/* About me Section*/
-#About-Me img{
+
+#AboutMe img{
     height: auto;
     width: 430px;
 }
@@ -153,5 +198,6 @@ span{
     font-size: 18px;
     margin-bottom: 45px;
 }
+
 
 /*Projects section*/
