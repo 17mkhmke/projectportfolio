@@ -201,3 +201,51 @@ section {
 
 
 /*Projects section*/
+#Projects{
+    background-color: lightyellow;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: black;
+    font-size: 75px;
+    width:1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+/*Testimonial Section*/
+/* .card-columns {
+    @include media-breakpoint-only(lg) {
+      column-count: 4;
+    }
+    @include media-breakpoint-only(xl) {
+      column-count: 5;
+    }
+  }
+  @media screen and (max-width: 720px) {
+    .container img{
+        width: 100%;
+    }
+    
+} */
+/* Skills Section */
+#Skills{
+    display: grid;
+}
+/* @media only screen and (max-width: 1080px) {
+    #skills{
+        display: inline;
+    }
+
+}  */
+.circle-wrap{
+    display: grid;
+    grid-template-columns: repeat(1, 160px);
+    grid-gap: 80px;
+    margin-top: 180px;
+    margin-left: 50px;
+    width: 150px;
+    height: 150px;
+    background-color: wheat;
+    border-radius: 50%;
+}
