@@ -13,14 +13,14 @@ rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxj
 <body>
   <!----------------------------------------------------------NAVBAR-------------------------------------------------------------->
     <header>
-      <nav class="navbar navbar-expand-lg bg-black w-100 top-0 position-fixed ">
+      <nav class="navbar navbar-expand-lg bg-black w-100 top-0 position-fixed bg-warning ">
         <div class="container-fluid">
           <img src="https://i.postimg.cc/sfGQ4gGL/Final-Logo2-1.png" class="logo">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav m-auto bg-black bg-md-none ">
+            <ul class="navbar-nav m-auto bg-black bg-md-none">
               <li class="nav-item">
                 <a class="nav-link" href="#Home">Home</a>
               </li>
@@ -66,6 +66,7 @@ rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxj
           </div>
         </div>
         </section>
+        <!----------------------------------------------------------------------------- About Me------------------------------------------------------------------------------------------------------------ -->
       <section id="AboutMe" class="container">
           <div class="row">
               <img src="https://i.postimg.cc/CLYq2ZKt/About-Me-2.jpg" alt="about_me" class="col-5"><!--can change alt to class-->
@@ -252,7 +253,7 @@ rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxj
             
             <div class="skill mb-4">
               <div class="d-flex justify-content-between">
-              <h6 class="font-width-bold">CSS3 <span><i class="fa-brands fa-css3-alt"></i></span></h6>
+              <h6 class="font-width-bold">CSS3 <i class="fa-brands fa-css3-alt"></i></h6>
               <h6 class="font-width-bold">95%</h6>
             </div>
             
@@ -360,7 +361,7 @@ rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxj
             </div>
           </div>
           <div class="card border-warning col-12 col-sm-2 col-md-3 m-1">
-            <img src="https://i.postimg.cc/L6hL88j2/lazolapic.jpg" class="card-img-top" alt="LazPic">
+            <img src="https://i.postimg.cc/j2hDBd93/person-profile-image-icon.png" class="card-img-top" alt="LazPic">
             <div class="card-body">
               <h5 class="card-title"><b>Lazola Makubalo</b></h5>
               <p class="card-text">Mkhuseli Mkeyiya is a good colleague. A smart worker with an eager and a desire to know more.</p>
@@ -385,29 +386,86 @@ rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxj
           
         </div>
       </section>
-      <section id="Contact">
-        <div class="container">
-          <div class="row">
-            <div class="col-4">
-            <form action="" class="mt-3">
-              <div>
-                <input type="text" class="form-control" placeholder="Enter your name" required>
-  
+      <section class="head pb-5" id="Contact">
+        <div class="container py-5">
+          <div class="card">
+            <div class="card-bodyContact">
+            <h1 class="font-weight-light text-center py-5">Contact Me</h1>
+            <div class="row">
+              <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                <div class="row pt-3">
+                  <div class="col-lg-1 offset-1 col-md-2 col-sm-2 col-2">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                  <div class="col-lg-10 col-md-9 col-sm-9 col-9">
+                    <h5 class="font-weight-light"><b>Address</b></h5>
+                    <p>A28 Shefiled Rd.<br>
+                    Browns Farm<br>
+                  Philippi<br>
+                7785</p>
+                  </div>
+                </div>
+                <div class="row pt-3">
+                  <div class="col-lg-1 offset-1 col-md-2 col-sm-2 col-2">
+                    <i class="fa-solid fa-phone"></i>
+
+                  </div>
+                  <div class="col-lg-10 col-md-9 col-sm-9 col-9">
+                    <h5 class="font-weigh-light"><b>Give me a call</b></h5>
+                    <p>+27 67 209 4209</p>
+                  </div>
+                </div>
+                <div class="row pt-3">
+                  <div class="col-lg-1 offset-1 col-md-2 col-sm-2 col-2">
+                    <i class="fa-solid fa-paper-plane"></i>
+
+                  </div>
+                  <div class="col-lg-10 col-md-9 col-sm-9 col-9">
+                    <h5 class="font-weight-light"><b>Email Me</b></h5>
+                    <p>17MkhuseliMkeyiya@gmail.com</p>
+                  </div>
+                </div>
               </div>
-              <input type="text" placeholder="Enter your surname">
-            </form>
+              <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                <form  action="https://formspree.io/f/mqkjgnln" method="post">
+                  
+                  <div class="form-row">
+                    <div class="form-group col-lg-6 col-md-12 col-sm-12 col-12">
+                      <label>First Name</label>
+                      <input type="text" class="form-control" placeholder="First Name">
+                    </div>
+                    <div class="form-group col-lg-6 col-md-12 col-sm-12 col-12">
+                      <label>Last Name</label>
+                      <input type="text" class="form-control" placeholder="Last Name">
+                    </div>
+                  </div>
+                  <label>Email</label>
+                  <input type="email" placeholder="Email" class="form-control">
+                  <label>Your Message</label>
+                  <textarea class="form-control mb-3" id="" placeholder="Enter your message" cols="30" rows="10"></textarea>
+                  <button class="btn btn-primary">Send Message</button>
+                </form>
+              </div>
+            </div>
           </div>
           </div>
-          <input type="button" value="send"
-          class="btn btn-primary">
-          <button class="btn btn-outline-info">Submit</button>
         </div>
-      </section>
+  
+        </section>
     </main>
    
     <footer>
-        <p>Copyright &copy; 2022 Made by <b>Mkhuseli Mkeyiya</b></p>
+      <section class="footer">
+        <div class="social">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        
 
+      
+        <p>Copyright &copy; 2022 Made by <b>Mkhuseli Mkeyiya</b></p>
+      </div>
+      </section>
     </footer>
     <script src="https://kit.fontawesome.com/dd4b0c6b77.js" crossorigin="anonymous"></script>
     <!-- JavaScript Bundle with Popper -->
@@ -415,3 +473,4 @@ rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxj
 integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     
 </body>
+</html>

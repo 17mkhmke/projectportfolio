@@ -23,14 +23,20 @@
 body{
     background-color: lightyellow;
 }
+.navbar-toggler {
+    background-color: gold;
+}
 .nav-link:hover{
-    transform: scale(1.2);
+    /* transform: scale(1.2) translateX(42px); */
+    scale: 1.2;
+    transform: translateX(10px);
+
 }
 .nav-link:hover{
     color: gold;
 }
 .logo{
-    width: 7rem;
+    width: 5rem;
 }
 .detail{
      width: 100%;
@@ -248,4 +254,12 @@ section {
     height: 150px;
     background-color: wheat;
     border-radius: 50%;
+}
+/* contact Page */
+.head{
+    background-color: black;
+    background-size: 100% 100%;
+}
+.card-bodyContact{
+    background-color: lightgoldenrodyellow;
 }
