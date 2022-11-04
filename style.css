@@ -24,7 +24,10 @@ body{
     background-color: lightyellow;
 }
 .navbar-toggler {
-    background-color: gold;
+    background-color: goldenrod;
+}
+.nav-link{
+    float:left;
 }
 .nav-link:hover{
     /* transform: scale(1.2) translateX(42px); */
@@ -162,16 +165,16 @@ section {
 
 */
 /* About me Section*/
-#AboutMe {
+
+
+
+/* #AboutMe {
     width: 100%;
     padding: 100px 0px;
+    background-size: 100% 100%;
     background-color:lightyellow;
 }
 
-#AboutMe img{
-    height: auto;
-    width: 430px;
-}
 .about-text {
     width: 550px;
 }
@@ -203,7 +206,7 @@ section {
     line-height: 28px;
     font-size: 18px;
     margin-bottom: 45px;
-}
+} */
 
 
 /*Projects section*/
@@ -211,6 +214,7 @@ section {
     background-color: lightyellow;
     width: 100%;
     padding: 100px 0px;
+    background-size: 100% 100%;
 }
 .title h2{
     color: black;
@@ -220,6 +224,10 @@ section {
     text-align: center;
 }
 /*Testimonial Section*/
+#Testimonial{
+    background-size: 100% 100%;
+
+}
 /* .card-columns {
     @include media-breakpoint-only(lg) {
       column-count: 4;
@@ -262,4 +270,40 @@ section {
 }
 .card-bodyContact{
     background-color: lightgoldenrodyellow;
+}
+/* footer section */
+footer {
+    font-weight: 400;
+    background-color: gold;
+    
+}
+.footer{
+    padding: 40px 0;
+    background-color: goldenrod;
+}
+footer p{
+    color: black;
+}
+.footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: #4b4c4d;
+
+}
+.footer .social a {
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity:0.75 ;
+
+}
+.footer .social a:hover{
+    opacity: 0.9;
 }
